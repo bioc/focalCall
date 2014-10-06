@@ -1,0 +1,17 @@
+#exportPattern("^[^\\.]")
+# Import all packages listed as Imports or Depends
+
+import(CGHcall)
+
+# export 
+#exportClasses(cghCall)
+#exportMethods(initialize)
+
+
+export("focalCall")
+export("FreqPlot")
+export("FreqPlotfocal")
+export("igvFiles")
+export("singleSample")
+
+exportClasses("cghCall")
